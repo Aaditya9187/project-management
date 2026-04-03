@@ -14,7 +14,7 @@
 
 ## 🔗 Live Links
 
-Live Project Preview (Frontend): "https://project-management-workspace.vercel.app"
+Live Project Preview (Frontend): "https://project-management-workspace.vercel.app" <br/>
 Live Project Preview (Backend): "https://project-management-server-matrix.vercel.app"
 
 ---
@@ -69,7 +69,7 @@ cd client
 npm install
 ```
 
-Install the required packages using npm for client.
+Install the required packages using npm for server.
 
 ```bash
 cd ..
@@ -90,7 +90,7 @@ Add your environment variables for server by creating a ".env" file in the root 
 
 ```bash
 # Run Environment
-NODE_ENV = "development" #Change to production in deployment
+NODE_ENV = "development" #Change this to production while deploying the project
 
 # Clerk
 CLERK_PUBLISHABLE_KEY=""
