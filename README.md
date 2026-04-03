@@ -1,8 +1,8 @@
 <div align="center">
-  <h1><img src="https://project-management-gs.vercel.app/favicon.ico" width="20" height="20" alt="project-management Favicon">
+  <h1><img src="https://project-management-gs.vercel.app/favicon.ico" width="30" height="30" alt="project-management Favicon">
    Project Management</h1>
   <p>
-    An open-source project management platform built with ReactJS and Tailwind CSS.
+    An open-source project management platform built with PERN stack.
   </p>
   <p>
     <a href="https://github.com/Aaditya9187/project-management/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome"></a>
