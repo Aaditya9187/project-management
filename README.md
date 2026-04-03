@@ -12,6 +12,13 @@
 
 ---
 
+## 🔗 Live Links
+
+Live Project Preview (Frontend): "https://project-management-workspace.vercel.app"
+Live Project Preview (Backend): "https://project-management-server-matrix.vercel.app"
+
+---
+
 ## 📖 Table of Contents
 
 - [✨ Features](#-features)
@@ -39,6 +46,100 @@
 | Clerk | User Authentication |
 | Nodemailer + Brevo | Sending Mails Automatically |
 | Vercel | Project Deployment |
+
+---
+
+# 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Aaditya9187/project-management.git
+cd project-management
+```
+
+## 2️⃣ Install Dependencies
+
+Install the required packages using npm for client.
+
+```bash
+cd client
+npm install
+```
+
+Install the required packages using npm for client.
+
+```bash
+cd ..
+cd server
+npm install
+```
+
+## 3️⃣ Add Your Environment Variables
+
+Add your environment variables for client by creating a ".env" file in the root directory of client folder.
+
+```bash
+VITE_CLERK_PUBLISHABLE_KEY=""
+VITE_BASEURL=http://localhost:5000
+```
+
+Add your environment variables for server by creating a ".env" file in the root directory of server folder.
+
+```bash
+# Run Environment
+NODE_ENV = "development" #Change to production in deployment
+
+# Clerk
+CLERK_PUBLISHABLE_KEY=""
+CLERK_SECRET_KEY=""
+CLERK_WEBHOOK_SECRET=""
+
+# Neon Database
+DATABASE_URL = ""
+DIRECT_URL = ""
+
+#Inngest
+INNGEST_EVENT_KEY=""
+INNGEST_SIGNING_KEY=""
+
+#SMTP Credentials
+SENDER_EMAIL=""
+SMTP_USER=""
+SMTP_PASS=""
+```
+
+## 4️⃣ Run Your Project On Local Host
+
+Run your project's frontend(client).
+
+```bash
+npm run dev
+```
+
+Run your project's backend(server).
+
+```bash
+npm run server
+```
+
+## 5️⃣ Open In Browser
+
+Open your frontend(client) in browser by going to:
+
+```bash
+http://localhost:5173
+```
+
+Open your backend(server) in browser by going to:
+
+```bash
+http://localhost:5000
+```
+
+<p>🎉 Congratulations you have successfully built and deployed your project locally 🎉</p>
 
 ---
 
